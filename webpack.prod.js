@@ -1,6 +1,6 @@
 const path = require('path');
 const { merge } = require('webpack-merge');
-const FixStyleOnEntriesPlugin = require('webpack-fix-style-only-entries');
+const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 const common = require('./webpack.common');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
