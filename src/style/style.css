@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.header-text{ 
+  color: white;
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.information {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-profile{
+  margin-left: 50px;
+}
+
+.photo-profile img {
+  width: 500px;
+  height: 522px;
+  border-radius: 50%;
+}
+
+.headline {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  color: rgb(0, 0, 45);
+  margin-bottom: 10px;
+}
+
+.information p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.25em ;
+  margin-bottom: 16px;
+}

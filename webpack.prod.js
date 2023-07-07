@@ -50,7 +50,7 @@ module.exports = merge(common, {
         ],
       },
       {
-        test: /.s?css$/,
+        test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           { loader: 'css-loader', options: { sourceMap: true } },
